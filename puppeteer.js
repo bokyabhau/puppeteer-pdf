@@ -19,7 +19,7 @@ import { render } from 'ejs';
 
   await page.pdf({
     path: 'report.pdf',
-    format: 'letter',
+    format: 'a4',
   });
 
   await browser.close();
